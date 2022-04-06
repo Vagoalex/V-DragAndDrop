@@ -1,0 +1,98 @@
+/* ============CONTAINER=============================================== */
+.main {
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 20px;
+	background: rgb(241, 238, 238);
+	box-shadow: 8px 14px 19px rgba(198, 198, 198, 0.36);
+}
+
+.row {
+	position: relative;
+	display: flex;
+	width: 500px;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+}
+
+.col-header {
+	width: 200px;
+	outline: 2px solid rgb(255, 255, 255);
+	box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+	border-radius: 20px;
+	padding: 0.8rem 1rem;
+	margin: 0 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+
+.item {
+	width: 140px;
+	height: 66px;
+	border: 2px solid rgb(0, 0, 0);
+	box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+	border-radius: 20px;
+	background: #00c3ff;
+	padding: 5px 5px 10px 5px;
+	color: #000000;
+	text-align: center;
+	cursor: grab;
+}
+
+.item:active {
+	cursor: grabbing;
+}
+
+.placeholder {
+	width: 150px;
+	height: 66px;
+}
+
+.start {
+	background: #209cff;
+}
+
+.progress {
+	background: #209cff;
+}
+
+.done {
+	background: #209cff;
+}
+
+.hold {
+	border: 2px solid rgb(0, 102, 255);
+	background: rgb(0, 247, 255);
+}
+.hide {
+	display: none;
+}
+.hovered {
+	border-radius: 20px;
+	background: #bfedf5;
+	border: 2px solid rgb(255, 255, 255);
+}
+/* ================================================= */
+
+/* ============HEADER-FOOTER================================================================================================ */
+.header,
+.footer {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	background-color: darkslateblue;
+}
+.header {
+	position: fixed;
+	top: 0;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+}
